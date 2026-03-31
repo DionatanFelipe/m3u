@@ -133,7 +133,7 @@ Arquivos modificados: 3
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-## Guide in English (International)
+## Guide in English
 
 ###  Description
 
@@ -380,9 +380,9 @@ Archivos modificados: 3
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-## **WINDOS / Terminal (Windows)**
+## WINDOS / Terminal (Windows)
 
-### **Português (Brasil)**
+### Português (Brasil)
 
 **Introdução ao Terminal / Prompt de Comando (Windows)**
 
@@ -415,8 +415,7 @@ python3 m3u-INT.py
 
 ---
 
-### **English (International)**
-
+### English
 **Introduction to Terminal / Command Prompt (Windows)**
 
 If you have never used the terminal on Windows, it is called **Command Prompt** or **PowerShell** and is used to run commands, like executing Python scripts.
@@ -448,7 +447,7 @@ python3 m3u-INT.py
 
 ---
 
-### **Español (Latam)**
+### Español
 
 **Introducción al Terminal / Símbolo del Sistema (Windows)**
 
