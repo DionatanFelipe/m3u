@@ -1,9 +1,11 @@
 # m3u
 Editor de playlist m3u criadas no computador para rodar no android ou para ajuste de caminho.
+M3U playlist editor created on the computer to run on Android or to adjust file paths.
+Editor de playlists .m3u creadas en la computadora para usar en Android o para ajustar rutas de archivos.
 
 --- # PT-BR - ENG - ESP
 -
-## ** Guia em Português (Brasil)**
+## Guia em Português (Brasil)
 
 ###  Descrição
 
@@ -127,7 +129,7 @@ Arquivos modificados: 3
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-## ** Guide in English (International)**
+## Guide in English (International)
 
 ###  Description
 
@@ -250,7 +252,7 @@ Files modified: 3
 * Files with no changes will not be copied.
 
 ----------------------------------------------------------------------------------------------------------------------------
-## **Guía en Español **
+## Guía en Español
 
 ###  Descripción
 
