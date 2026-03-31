@@ -479,19 +479,3 @@ python3 m3u-INT.py
 
  **Consejo:** Si aparece un error que dice `python` no reconocido, significa que Python no está agregado al PATH. Instala **Python 3** y marca la opción **“Add Python to PATH”** durante la instalación.
 
----
-
-Se você quiser, posso **inserir essa seção no guia completo das playlists M3U**, criando uma versão final com:
-
-* **Descrição do script**
-* **Modos Notebook e Script**
-* **Como identificar caminhos na M3U**
-* **Configuração do script**
-* **Execução**
-* **Seção Windows / Terminal**
-
-Fica tudo pronto para iniciantes.
-
-Quer que eu faça essa versão final completa?
-
-
