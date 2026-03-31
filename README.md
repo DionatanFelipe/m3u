@@ -3,7 +3,7 @@ Editor de playlist m3u criadas no computador para rodar no android ou para ajust
 
 --- # PT-BR - ENG - ESP
 -
-## **1️⃣ Guia em Português (Brasil)**
+## ** Guia em Português (Brasil)**
 
 ###  Descrição
 
@@ -11,7 +11,7 @@ Este script foi criado para permitir que você **use suas playlists M3U criadas 
 
 ---
 
-### 🧾 Tipos de arquivo e modos de execução
+###  Tipos de arquivo e modos de execução
 
 Existem **duas versões do script**:
 
@@ -22,7 +22,7 @@ Existem **duas versões do script**:
 
 2. **Modo Script Python** (`.py`)
 
-   * Executado no terminal: `python3 corrigir_playlist.py`.
+   * Executado no terminal: `python3 m3u-INT.py`.
    * Solicita **via terminal**:
 
      * Pasta de origem (onde estão os arquivos `.m3u`)
@@ -38,7 +38,7 @@ Existem **duas versões do script**:
 2. Observe como estão os caminhos dos arquivos, por exemplo:
 
 ```
-/home/usuario/Musicas/minha-musica.mp3
+/home/usuario/Musicas/minha-musica.flac
 /home/usuario/Musicas/playlist2/outro-arquivo.mp3
 ```
 
@@ -76,16 +76,16 @@ caminho_novo = '/storage/emulated/0/Music/'
 
 **Modo Notebook:**
 
-1. Abra o `MudarCorM3U.ipynb` no Jupyter Notebook.
+1. Abra o `m3u.ipynb` no Jupyter Notebook.
 2. Siga as instruções internas para preencher os caminhos e executar.
 
 **Modo Script Python:**
 
-1. Salve o arquivo como `corrigir_playlist.py`.
+1. Salve o arquivo como `m3u-INT.py`.
 2. Abra o terminal e rode:
 
 ```
-python3 corrigir_playlist.py
+python3 m3u-INT.py
 ```
 
 3. Responda às perguntas solicitadas pelo script:
@@ -127,7 +127,7 @@ Arquivos modificados: 3
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-## **2️⃣ Guide in English (International)**
+## ** Guide in English (International)**
 
 ###  Description
 
@@ -135,7 +135,7 @@ This script allows you to **use your M3U playlists created on a computer on othe
 
 ---
 
-### 🧾 File types and execution modes
+### File types and execution modes
 
 There are **two versions of the script**:
 
@@ -146,7 +146,7 @@ There are **two versions of the script**:
 
 2. **Python Script mode** (`.py`)
 
-   * Run from the terminal: `python3 fix_playlist.py`.
+   * Run from the terminal: `python3 m3u-INT.py`.
    * Requests via terminal:
 
      * Source folder (where `.m3u` files are)
@@ -162,7 +162,7 @@ There are **two versions of the script**:
 2. Check the file paths, for example:
 
 ```
-/home/user/Music/my-song.mp3
+/home/user/Music/my-song.flac
 /home/user/Music/playlist2/another-song.mp3
 ```
 
@@ -200,16 +200,16 @@ new_path = '/storage/emulated/0/Music/'
 
 **Notebook mode:**
 
-1. Open `FixM3UPaths.ipynb` in Jupyter Notebook.
+1. Open `m3u.ipynb` in Jupyter Notebook.
 2. Follow internal instructions to fill paths and run cells.
 
 **Python Script mode:**
 
-1. Save the file as `fix_playlist.py`.
+1. Save the file as `m3u-INT.py`.
 2. Open a terminal and run:
 
 ```
-python3 fix_playlist.py
+python3 m3u-INT.py
 ```
 
 3. Provide the requested information:
@@ -250,7 +250,7 @@ Files modified: 3
 * Files with no changes will not be copied.
 
 ----------------------------------------------------------------------------------------------------------------------------
-## **3️⃣ Guía en Español **
+## **Guía en Español **
 
 ###  Descripción
 
@@ -258,7 +258,7 @@ Este script permite **usar tus playlists M3U creadas en la computadora en otros 
 
 ---
 
-### 🧾 Tipos de archivo y modos de ejecución
+###  Tipos de archivo y modos de ejecución
 
 Hay **dos versiones del script**:
 
@@ -269,7 +269,7 @@ Hay **dos versiones del script**:
 
 2. **Modo Script Python** (`.py`)
 
-   * Ejecutado desde terminal: `python3 corregir_playlist.py`.
+   * Ejecutado desde terminal: `python3 m3u-INT.py`.
    * Solicita por terminal:
 
      * Carpeta de origen (donde están los `.m3u`)
@@ -285,7 +285,7 @@ Hay **dos versiones del script**:
 2. Observa cómo están las rutas de los archivos, por ejemplo:
 
 ```
-/home/usuario/Musica/mi-cancion.mp3
+/home/usuario/Musica/mi-cancion.flac
 /home/usuario/Musica/playlist2/otra-cancion.mp3
 ```
 
@@ -323,16 +323,16 @@ ruta_nueva = '/storage/emulated/0/Music/'
 
 **Modo Notebook:**
 
-1. Abre `CorregirM3UPaths.ipynb` en Jupyter Notebook.
+1. Abre `m3u.ipynb` en Jupyter Notebook.
 2. Sigue las instrucciones internas para completar las rutas y ejecutar.
 
 **Modo Script Python:**
 
-1. Guarda el archivo como `corregir_playlist.py`.
+1. Guarda el archivo como `m3u-INT.py`.
 2. Abre terminal y ejecuta:
 
 ```
-python3 corregir_playlist.py
+python3 m3u-INT.py
 ```
 
 3. Ingresa la información solicitada:
@@ -358,7 +358,7 @@ Archivos modificados: 3
 
 ---
 
-### 📱 Cuándo usar
+###  Cuándo usar
 
 * Transferir playlists entre dispositivos.
 * Ajustar rutas cuando se cambian carpetas de música.
@@ -372,5 +372,120 @@ Archivos modificados: 3
 * Funciona **solo con archivos `.m3u`**.
 * Los archivos sin cambios no serán copiados.
 
+------------------------------------------------------------------------------------------------------------------------------------
+
+## **WINDOS / Terminal (Windows)**
+
+### **Português (Brasil)**
+
+**Introdução ao Terminal / Prompt de Comando (Windows)**
+
+Se você nunca usou o terminal no Windows, ele é chamado **Prompt de Comando** ou **PowerShell** e serve para executar comandos, como rodar scripts Python.
+
+**Como abrir:**
+
+1. Pressione **Win + R**, digite `cmd` e pressione Enter → abre o Prompt de Comando.
+   Ou digite `PowerShell` para abrir o PowerShell.
+
+2. Navegue até a pasta onde está o script usando o comando `cd`. Por exemplo:
+
+```
+cd C:\Users\SeuUsuario\Documentos\ProjetosPlaylist
+```
+
+3. Rode o script com Python:
+
+```
+python m3u-INT.py
+```
+
+ou, se estiver usando Python 3:
+
+```
+python3 m3u-INT.py
+```
+
+**Dica:** Se aparecer um erro dizendo que `python` não é reconhecido, significa que o Python não está adicionado ao PATH. Nesse caso, instale o **Python 3** e marque a opção **“Add Python to PATH”** durante a instalação.
+
 ---
+
+### **English (International)**
+
+**Introduction to Terminal / Command Prompt (Windows)**
+
+If you have never used the terminal on Windows, it is called **Command Prompt** or **PowerShell** and is used to run commands, like executing Python scripts.
+
+**How to open:**
+
+1. Press **Win + R**, type `cmd` and hit Enter → opens Command Prompt.
+   Or type `PowerShell` to open PowerShell.
+
+2. Navigate to the folder where your script is using `cd`. Example:
+
+```
+cd C:\Users\YourUser\Documents\PlaylistProjects
+```
+
+3. Run the script with Python:
+
+```
+python m3u-INT.py
+```
+
+or if using Python 3:
+
+```
+python3 m3u-INT.py
+```
+
+ **Tip:** If you see an error saying `python` is not recognized, Python is not added to PATH. Install **Python 3** and check **“Add Python to PATH”** during installation.
+
+---
+
+### **Español (Latam)**
+
+**Introducción al Terminal / Símbolo del Sistema (Windows)**
+
+Si nunca has usado el terminal en Windows, se llama **Símbolo del Sistema** o **PowerShell** y se utiliza para ejecutar comandos, como correr scripts de Python.
+
+**Cómo abrir:**
+
+1. Presiona **Win + R**, escribe `cmd` y presiona Enter → abre el Símbolo del Sistema.
+   O escribe `PowerShell` para abrir PowerShell.
+
+2. Navega a la carpeta donde está tu script usando `cd`. Ejemplo:
+
+```
+cd C:\Users\TuUsuario\Documentos\ProyectosPlaylist
+```
+
+3. Ejecuta el script con Python:
+
+```
+python m3u-INT.py
+```
+
+o si usas Python 3:
+
+```
+python3 m3u-INT.py
+```
+
+ **Consejo:** Si aparece un error que dice `python` no reconocido, significa que Python no está agregado al PATH. Instala **Python 3** y marca la opción **“Add Python to PATH”** durante la instalación.
+
+---
+
+Se você quiser, posso **inserir essa seção no guia completo das playlists M3U**, criando uma versão final com:
+
+* **Descrição do script**
+* **Modos Notebook e Script**
+* **Como identificar caminhos na M3U**
+* **Configuração do script**
+* **Execução**
+* **Seção Windows / Terminal**
+
+Fica tudo pronto para iniciantes.
+
+Quer que eu faça essa versão final completa?
+
 
